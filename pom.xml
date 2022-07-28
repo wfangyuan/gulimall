@@ -2,26 +2,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.atguigu.gulimall</groupId>
-    <artifactId>gulimall</artifactId>
+    <groupId>wfagyuan.mall</groupId>
+    <artifactId>mall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gulimall</name>
+    <name>mall</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>gulimall-common</module>
-        <module>gulimall-ware</module>
-        <module>gulimall-product</module>
-        <module>gulimall-order</module>
-        <module>gulimall-member</module>
-        <module>gulimall-coupon</module>
-        <module>gulimall-gateway</module>
-        <module>gulimall-auth-server</module>
-        <module>gulimall-cart</module>
-        <module>gulimall-search</module>
-        <module>gulimall-seckill</module>
-        <module>gulimall-third-party</module>
+        <module>mall-common</module>
+        <module>mall-ware</module>
+        <module>mall-product</module>
+        <module>mall-order</module>
+        <module>mall-member</module>
+        <module>mall-coupon</module>
+        <module>mall-gateway</module>
+        <module>mall-auth-server</module>
+        <module>mall-cart</module>
+        <module>mall-search</module>
+        <module>mall-seckill</module>
+        <module>mall-third-party</module>
         <module>renren-fast</module>
 
     </modules>
@@ -29,17 +29,43 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.0</version>
+        <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <properties>
+        <!--wagon plugin 配置-->
+        <service-path>/work/renren</service-path>
+        <pack-name>${project.artifactId}-${project.version}.jar</pack-name>
+        <remote-addr>192.168.1.10:22</remote-addr>
+        <remote-username>root</remote-username>
+        <remote-passwd>123456</remote-passwd>
         <!--suppress UnresolvedMavenProperty -->
         <sonar.jacoco.reportPaths>${PWD}/./target/jacoco.exec</sonar.jacoco.reportPaths>
         <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <skipTests>true</skipTests>
         <java.version>1.8</java.version>
+
+        <mysql.version>8.0.17</mysql.version>
+        <mssql.version>4.0</mssql.version>
+        <oracle.version>11.2.0.3</oracle.version>
+        <druid.version>1.2.11</druid.version>
+        <quartz.version>2.3.0</quartz.version>
+        <commons.fileupload.version>1.4</commons.fileupload.version>
+        <commons.io.version>2.11.0</commons.io.version>
+        <commons.codec.version>1.10</commons.codec.version>
+        <commons.configuration.version>1.10</commons.configuration.version>
+        <shiro.version>1.9.0</shiro.version>
+        <jwt.version>0.9.1</jwt.version>
+        <kaptcha.version>0.0.9</kaptcha.version>
+        <qiniu.version>7.11.0</qiniu.version>
+        <aliyun.oss.version>3.15.0</aliyun.oss.version>
+        <qcloud.cos.version>5.6.89</qcloud.cos.version>
+        <swagger.version>3.0.0</swagger.version>
+        <joda.time.version>2.10.14</joda.time.version>
+
         <spring-boot.version>2.7.0</spring-boot.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
@@ -55,7 +81,7 @@
         <hutool.version>5.8.0</hutool.version>
         <servlet-api.version>2.5</servlet-api.version>
         <sentinel-datasource-nacos.version>1.8.4</sentinel-datasource-nacos.version>
-        <gulimall-common.version>0.0.1-SNAPSHOT</gulimall-common.version>
+        <mall-common.version>0.0.1-SNAPSHOT</mall-common.version>
         <spring-cloud-alibaba-sentinel-gateway.version>2021.1</spring-cloud-alibaba-sentinel-gateway.version>
         <redisson.version>3.12.0</redisson.version>
         <elasticsearch-rest-high-level-client.version>7.17.4</elasticsearch-rest-high-level-client.version>
@@ -64,6 +90,86 @@
     <dependencyManagement>
 
         <dependencies>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.quartz-scheduler</groupId>
+                <artifactId>quartz</artifactId>
+                <version>${quartz.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons.fileupload.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons.codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-configuration</groupId>
+                <artifactId>commons-configuration</artifactId>
+                <version>${commons.configuration.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.axet</groupId>
+                <artifactId>kaptcha</artifactId>
+                <version>${kaptcha.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.qiniu</groupId>
+                <artifactId>qiniu-java-sdk</artifactId>
+                <version>${qiniu.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${aliyun.oss.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.qcloud</groupId>
+                <artifactId>cos_api</artifactId>
+                <version>${qcloud.cos.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>${joda.time.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-high-level-client</artifactId>
@@ -80,9 +186,9 @@
                 <version>${spring-cloud-alibaba-sentinel-gateway.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.atguigu.gulimall</groupId>
-                <artifactId>gulimall-common</artifactId>
-                <version>${gulimall-common.version}</version>
+                <groupId>wfagyuan.mall</groupId>
+                <artifactId>mall-common</artifactId>
+                <version>${mall-common.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.csp</groupId>
