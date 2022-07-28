@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-test-sso-client2" />
+        <module name="mall-search" />
+        <module name="mall-ware" />
+        <module name="mall-test-sso-server" />
+        <module name="mall-common" />
+        <module name="renren-generator" />
+        <module name="mall-auth-server" />
+        <module name="mall-cart" />
+        <module name="mall-coupon" />
+        <module name="mall-seckill" />
+        <module name="mall-third-party" />
+        <module name="renren-fast" />
+        <module name="mall-order" />
+        <module name="mall-product" />
+        <module name="mall-test-sso-client" />
+        <module name="mall-gateway" />
+        <module name="mall-member" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="gulimall-auth-server" target="1.5" />
+      <module name="gulimall-test-sso-client" target="1.5" />
+      <module name="gulimall-test-sso-client2" target="1.5" />
+      <module name="gulimall-test-sso-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gulimall-auth-server" options="-parameters" />
+      <module name="gulimall-test-sso-client" options="-parameters" />
+      <module name="gulimall-test-sso-client2" options="-parameters" />
+      <module name="gulimall-test-sso-server" options="-parameters" />
+      <module name="mall-auth-server" options="-parameters" />
+      <module name="mall-cart" options="-parameters" />
+      <module name="mall-common" options="-parameters" />
+      <module name="mall-coupon" options="-parameters" />
+      <module name="mall-gateway" options="-parameters" />
+      <module name="mall-member" options="-parameters" />
+      <module name="mall-order" options="-parameters" />
+      <module name="mall-product" options="-parameters" />
+      <module name="mall-search" options="-parameters" />
+      <module name="mall-seckill" options="-parameters" />
+      <module name="mall-test-sso-client" options="-parameters" />
+      <module name="mall-test-sso-client2" options="-parameters" />
+      <module name="mall-test-sso-server" options="-parameters" />
+      <module name="mall-third-party" options="-parameters" />
+      <module name="mall-ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

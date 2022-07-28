@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77192a44-c8c9-4459-b0a9-660fede317b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/deploy/gulimall-auth-server-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/GulimallAuthServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/config/AuthSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/config/GulimallSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/config/GulimallWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/controller/OAuth2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/feign/MemberFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/feign/ThirdPartFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/vo/SocialUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/vo/UserLoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/java/com/atguigu/gulimall/auth/vo/UserRegistVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/main/resources/templates/reg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-auth-server/src/test/java/com/atguigu/gulimall/auth/GulimallAuthServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/deploy/gulimall-cart-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/GulimallCartApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/config/CartSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/config/GulimallSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/config/GulimallWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/config/MyThreadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/config/ThreadPoolConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/feign/ProductFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/interceptor/CartInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/service/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/service/impl/CartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/vo/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/vo/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/vo/SkuInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/java/com/atguigu/gulimall/cart/vo/UserInfoTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/resources/templates/cartList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/main/resources/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-cart/src/test/java/com/atguigu/gulimall/cart/GulimallCartApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/AuthServerConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/CartConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/ProductConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/constant/WareConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/BizCodeEnume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/exception/NoStockException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/MemberPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SkuHasStockVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SkuReductionTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/SpuBoundTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/es/SkuEsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/OrderTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/SeckillOrderTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/StockDetailTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/to/mq/StockLockedTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/RRException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/AddGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/ListValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/ListValueConstraintValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/UpdateGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/valid/UpdateStatusGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/vo/MemberRespVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/xss/HTMLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/xss/SQLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/resources/ValidationMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/deploy/gulimall-coupon-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/GulimallCouponApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/config/CouponSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponSpuCategoryRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponSpuRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/HomeAdvController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/HomeSubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/HomeSubjectSpuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/MemberPriceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillPromotionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillSessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillSkuNoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillSkuRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SkuFullReductionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SkuLadderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SpuBoundsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponSpuCategoryRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponSpuRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/HomeAdvDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/HomeSubjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/HomeSubjectSpuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/MemberPriceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillPromotionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillSessionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillSkuNoticeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillSkuRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SkuFullReductionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SkuLadderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SpuBoundsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponSpuCategoryRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponSpuRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/HomeAdvEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/HomeSubjectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/HomeSubjectSpuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/MemberPriceEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillPromotionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillSessionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillSkuNoticeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillSkuRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SkuFullReductionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SkuLadderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SpuBoundsEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponSpuCategoryRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponSpuRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/HomeAdvService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/HomeSubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/HomeSubjectSpuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/MemberPriceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillPromotionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillSkuNoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillSkuRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SkuFullReductionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SkuLadderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SpuBoundsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponSpuCategoryRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponSpuRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/HomeAdvServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/HomeSubjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/HomeSubjectSpuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/MemberPriceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillPromotionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillSessionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillSkuNoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillSkuRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SkuFullReductionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SkuLadderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SpuBoundsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/bootstrap-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponSpuCategoryRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponSpuRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/HomeAdvDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/HomeSubjectDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/HomeSubjectSpuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/MemberPriceDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillPromotionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillSessionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillSkuNoticeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillSkuRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SkuFullReductionDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SkuLadderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SpuBoundsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/test/java/com/atguigu/gulimall/coupon/GulimallCouponApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/deploy/gulimall-gateway-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/GulimallGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/config/GulimallCorsConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/config/SentinelGatewayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/test/java/com/atguigu/gulimall/gateway/GulimallGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/deploy/gulimall-member-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/GulimallMemberApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/config/GuliFeignConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/config/GulimallSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/config/MemberSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/config/MemberWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/GrowthChangeHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/IntegrationChangeHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberCollectSpuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberCollectSubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberLevelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberLoginLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberReceiveAddressController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberStatisticsInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/GrowthChangeHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/IntegrationChangeHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberCollectSpuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberCollectSubjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberLevelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberLoginLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberReceiveAddressDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberStatisticsInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/GrowthChangeHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/IntegrationChangeHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberCollectSpuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberCollectSubjectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberLevelEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberLoginLogEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberReceiveAddressEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberStatisticsInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/exception/PhoneExsitException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/exception/UsernameExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/feign/CouponFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/feign/OrderFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/interceptor/LoginUserInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/GrowthChangeHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/IntegrationChangeHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberCollectSpuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberCollectSubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberLevelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberLoginLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberReceiveAddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberStatisticsInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/GrowthChangeHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/IntegrationChangeHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberCollectSpuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberCollectSubjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberLevelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberLoginLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberReceiveAddressServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberStatisticsInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/vo/MemberLoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/vo/MemberRegistVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/vo/SocialUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/web/MemberWebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/GrowthChangeHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/IntegrationChangeHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberCollectSpuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberCollectSubjectDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberLevelDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberLoginLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberReceiveAddressDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberStatisticsInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/templates/orderList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/test/java/com/atguigu/gulimall/member/GulimallMemberApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/deploy/gulimall-order-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/GulimallOrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/AlipayTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/GuliFeignConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/GulimallSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/MyMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/MyRabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/MySeataConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/MyThreadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/OrderSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/OrderWebConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/ThreadPoolConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/constant/OrderConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderOperateHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderReturnApplyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderReturnReasonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderSettingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/PaymentInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/RabbitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/RefundInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderItemDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderOperateHistoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderReturnApplyDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderReturnReasonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderSettingDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/PaymentInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/RefundInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderItemEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderOperateHistoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderReturnApplyEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderReturnReasonEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderSettingEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/PaymentInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/RefundInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/enume/OrderStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/CartFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/MemberFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/ProductFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/WmsFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/interceptor/LoginUserInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/listener/OrderCloseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/listener/OrderPayedListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/listener/OrderSeckillListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderOperateHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderReturnApplyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderReturnReasonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderSettingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/PaymentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/RefundInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderItemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderOperateHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderReturnApplyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderReturnReasonServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderSettingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/PaymentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/RefundInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/to/OrderCreateTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/FareVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/MemberAddressVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderConfirmVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderSubmitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/PayAsyncVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/PayVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SkuStockVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SpuInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SubmitOrderResponseVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/WareSkuLockVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/web/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/web/OrderWebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/web/PayWebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/file.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/OrderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/OrderItemDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/OrderOperateHistoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/OrderReturnApplyDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/OrderReturnReasonDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/OrderSettingDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/PaymentInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/mapper/order/RefundInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/registry.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/templates/confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/templates/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/templates/pay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/test/java/com/atguigu/gulimall/order/GulimallOrderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/deploy/gulimall-product-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/GulimallProductApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/AttrAttrgroupRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/AttrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/AttrGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/CategoryBrandRelationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/CommentReplayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/ProductAttrValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/SkuImagesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/SkuInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/SkuSaleAttrValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/SpuCommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/SpuImagesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/SpuInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/app/SpuInfoDescController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/GulimallSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/MyCacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/MyRedissonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/MyThreadConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/ProductSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/ThreadPoolConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrAttrgroupRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrGroupDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/BrandDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/CategoryBrandRelationDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/CategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/CommentReplayDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/ProductAttrValueDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SkuImagesDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SkuInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SkuSaleAttrValueDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuCommentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuImagesDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuInfoDescDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/AttrAttrgroupRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/AttrEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/AttrGroupEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/BrandEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/CategoryBrandRelationEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/CategoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/CommentReplayEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/ProductAttrValueEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SkuImagesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SkuInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SkuSaleAttrValueEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SpuCommentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SpuImagesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SpuInfoDescEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SpuInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/exception/GulimallExceptionControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/CouponFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/SearchFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/SeckillFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/WareFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/fallback/SeckillFeignServiceFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrAttrgroupRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/CategoryBrandRelationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/CommentReplayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/ProductAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuImagesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuSaleAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuCommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuImagesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuInfoDescService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrAttrgroupRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrGroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/CategoryBrandRelationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/CommentReplayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/ProductAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuImagesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuSaleAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuCommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuImagesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuInfoDescServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/Attr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrGroupRelationVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrGroupWithAttrsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrRespVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrValueWithSkuIdVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/BaseAttrs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/Bounds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/BrandVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/Catelog2Vo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/MemberPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SeckillInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SkuItemSaleAttrVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SkuItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/Skus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SpuItemAttrGroupVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SpuSaveVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/web/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/web/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/bootstrap-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrAttrgroupRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrGroupDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/BrandDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/CategoryBrandRelationDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/CategoryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/CommentReplayDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/ProductAttrValueDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SkuImagesDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SkuInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SkuSaleAttrValueDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SpuCommentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SpuImagesDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SpuInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/SpuInfoDescDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/templates/item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/product/GulimallProductApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/deploy/gulimall-search-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/GulimallSearchApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GulimallElasticSearchConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GulimallSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/SearchSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/constant/EsConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/controller/ElasticSaveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/feign/ProductFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/MallSearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/ProductSaveService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/impl/MallSearchServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/service/impl/ProductSaveServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/thread/ThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/vo/AttrResponseVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/vo/BrandVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/vo/SearchParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/vo/SearchResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/dsl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/new_product_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/product-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/test/java/com/atguigu/gulimall/search/GulimallSearchApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/deploy/gulimall-seckill-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/GulimallSeckillApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/config/GulimallSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/config/MyRabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/config/MyRedissonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/config/ScheduledConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/config/SeckillSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/config/SeckillWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/controller/SeckillController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/feign/CouponFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/feign/ProductFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/interceptor/LoginUserInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/scheduled/HelloSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/scheduled/SeckillSkuScheduled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/service/SeckillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/service/impl/SeckillServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/to/SecKillSkuRedisTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/vo/SeckillSesssionsWithSkus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/vo/SeckillSkuVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/atguigu/gulimall/seckill/vo/SkuInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/resources/templates/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/test/java/com/atguigu/gulimall/seckill/GulimallSeckillApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client/src/main/java/com/atguigu/gulimall/ssoclient/GulimallTestSsoClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client/src/main/java/com/atguigu/gulimall/ssoclient/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client/src/test/java/com/atguigu/gulimall/ssoclient/GulimallTestSsoClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client2/src/main/java/com/atguigu/gulimall/ssoclient/GulimallTestSsoClient2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client2/src/main/java/com/atguigu/gulimall/ssoclient/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client2/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-client2/src/test/java/com/atguigu/gulimall/ssoclient/GulimallTestSsoClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-server/src/main/java/com/atguigu/gulimall/ssoserver/GulimallTestSsoServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-server/src/main/java/com/atguigu/gulimall/ssoserver/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-server/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-test-sso-server/src/test/java/com/atguigu/gulimall/ssoserver/GulimallTestSsoServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/deploy/gulimall-third-party-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/GulimallThirdPartyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/component/SmsComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/config/ThirdSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/controller/OssController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/controller/SmsSendController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/util/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/bootstrap-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/test/java/com/atguigu/gulimall/thirdparty/GulimallThirdPartyApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/deploy/gulimall-ware-deploy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/GulimallWareApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/config/MyRabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/config/WareMyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/config/WareSentinelConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/PurchaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/PurchaseDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareOrderTaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareOrderTaskDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareSkuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/PurchaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/PurchaseDetailDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareOrderTaskDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareOrderTaskDetailDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareSkuDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/PurchaseDetailEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/PurchaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareOrderTaskDetailEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareOrderTaskEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareSkuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/feign/MemberFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/feign/OrderFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/feign/ProductFeignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/listener/StockReleaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/PurchaseDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/PurchaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareOrderTaskDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareOrderTaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareSkuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/PurchaseDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/PurchaseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareOrderTaskDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareOrderTaskServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareSkuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/FareVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/LockStockResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/MemberAddressVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/MergeVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/OrderItemVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/OrderVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/PurchaseDoneVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/PurchaseItemDoneVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/SkuHasStockVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/WareSkuLockVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/file.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/PurchaseDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/PurchaseDetailDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareInfoDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareOrderTaskDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareOrderTaskDetailDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/mapper/ware/WareSkuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/registry.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/test/java/com/atguigu/gulimall/ware/GulimallWareApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/opt/apache-maven-3.8.4" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/opt/apache-maven-3.8.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CWAITRGqr0JqY488Z53Ipz2h1L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/wangfangyuan/IdeaProjects/mall",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.GulimallCartApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mall" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mall" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallAuthServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.auth.GulimallAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.auth.GulimallAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.cart.GulimallCartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-coupon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.coupon.GulimallCouponApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.gateway.GulimallGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.member.GulimallMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.order.GulimallOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.product.GulimallProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallSearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.search.GulimallSearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallSeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-seckill" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.seckill.GulimallSeckillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallTestSsoClient2Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-test-sso-client2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ssoclient.GulimallTestSsoClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallTestSsoClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-test-sso-client2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ssoclient.GulimallTestSsoClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallTestSsoClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-test-sso-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ssoclient.GulimallTestSsoClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallTestSsoClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-test-sso-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ssoclient.GulimallTestSsoClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallTestSsoServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-test-sso-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ssoserver.GulimallTestSsoServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallTestSsoServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-test-sso-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ssoserver.GulimallTestSsoServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-third-party" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.thirdparty.GulimallThirdPartyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-ware" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ware.GulimallWareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="wfagyuan.mall.auth.MallAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="wfagyuan.mall.cart.MallCartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-fast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77192a44-c8c9-4459-b0a9-660fede317b0" name="Changes" comment="" />
+      <created>1658907887812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658907887812</updated>
+      <workItem from="1658907889385" duration="687000" />
+      <workItem from="1658908580942" duration="16000" />
+      <workItem from="1658908618089" duration="221000" />
+      <workItem from="1658908853583" duration="10764000" />
+      <workItem from="1658971471448" duration="7284000" />
+    </task>
+    <task id="LOCAL-00001" summary="升级项目为Springboot7,项目架构调整">
+      <created>1658923443791</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658923443791</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="升级项目为Springboot7,项目架构调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="升级项目为Springboot7,项目架构调整" />
+  </component>
+</project>
