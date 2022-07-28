@@ -4,7 +4,7 @@ Navicat MySQL Data Transfer
 Source Server         : 192.168.56.10_3306
 Source Server Version : 50727
 Source Host           : 192.168.56.10:3306
-Source Database       : gulimall_ums
+Source Database       : mall_ums
 
 Target Server Type    : MYSQL
 Target Server Version : 50727
