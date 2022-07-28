@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class GulimallWebConfig implements WebMvcConfigurer {
+public class MallWebConfig implements WebMvcConfigurer {
 
 
     @Override

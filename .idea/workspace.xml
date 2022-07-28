@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77192a44-c8c9-4459-b0a9-660fede317b0" name="Changes" comment="认证中心代码调整">
-      <change beforePath="$PROJECT_DIR$/mall-auth-server/deploy/gulimall-auth-server-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/deploy/mall-auth-server-deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/reg.html" afterDir="false" />
+    <list default="true" id="77192a44-c8c9-4459-b0a9-660fede317b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.en.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.en.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/java/wfagyuan/mall/auth/config/AuthSentinelConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/java/wfagyuan/mall/auth/config/AuthSentinelConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-cart/deploy/gulimall-cart-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-cart/deploy/mall-cart-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-cart/src/main/java/wfagyuan/mall/cart/config/CartSentinelConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-cart/src/main/java/wfagyuan/mall/cart/config/CartSentinelConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-cart/src/main/java/wfagyuan/mall/cart/config/GulimallSessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-cart/src/main/java/wfagyuan/mall/cart/config/MallSessionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-cart/src/main/java/wfagyuan/mall/cart/config/GulimallWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-cart/src/main/java/wfagyuan/mall/cart/config/MallWebConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +230,7 @@
       <workItem from="1658908580942" duration="16000" />
       <workItem from="1658908618089" duration="221000" />
       <workItem from="1658908853583" duration="10764000" />
-      <workItem from="1658971471448" duration="9592000" />
+      <workItem from="1658971471448" duration="10070000" />
     </task>
     <task id="LOCAL-00001" summary="升级项目为Springboot7,项目架构调整">
       <created>1658923443791</created>
@@ -259,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658991060362</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="认证中心代码调整">
+      <created>1658991346614</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658991346614</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

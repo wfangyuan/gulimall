@@ -10,7 +10,7 @@ import org.springframework.session.web.http.DefaultCookieSerializer;
 
 @EnableRedisHttpSession
 @Configuration
-public class GulimallSessionConfig {
+public class MallSessionConfig {
 
     @Bean
     public CookieSerializer cookieSerializer(){
