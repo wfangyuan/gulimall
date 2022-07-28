@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77192a44-c8c9-4459-b0a9-660fede317b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/admin-vue-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/admin-vue-app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/db/gulimall_admin.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/db/mall_admin.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/db/gulimall_oms.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/db/mall_oms.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/db/gulimall_pms.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/db/mall_pms.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/db/gulimall_sms.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/db/mall_sms.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/db/gulimall_ums.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/db/mall_ums.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/db/gulimall_wms.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/db/mall_wms.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/nginx/conf/conf.d/gulimall.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/nginx/conf/conf.d/mall.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/nginx/conf/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/nginx/conf/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code/域名方案.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/域名方案.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/java/wfagyuan/mall/auth/config/GulimallSessionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/java/wfagyuan/mall/auth/config/MallSessionConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/java/wfagyuan/mall/auth/config/GulimallWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/java/wfagyuan/mall/auth/config/MallWebConfig.java" afterDir="false" />
+    <list default="true" id="77192a44-c8c9-4459-b0a9-660fede317b0" name="Changes" comment="认证中心代码调整">
+      <change beforePath="$PROJECT_DIR$/mall-auth-server/deploy/gulimall-auth-server-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/deploy/mall-auth-server-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/mall-auth-server/src/main/resources/templates/reg.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +229,7 @@
       <workItem from="1658908580942" duration="16000" />
       <workItem from="1658908618089" duration="221000" />
       <workItem from="1658908853583" duration="10764000" />
-      <workItem from="1658971471448" duration="9207000" />
+      <workItem from="1658971471448" duration="9592000" />
     </task>
     <task id="LOCAL-00001" summary="升级项目为Springboot7,项目架构调整">
       <created>1658923443791</created>
@@ -261,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658989896457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="数据库调整，文档修改">
+      <created>1658991060362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658991060362</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +269,8 @@
     <MESSAGE value="升级项目为Springboot7,项目架构调整" />
     <MESSAGE value="sentinel版本升级UrlBlockHandler修改为BlockExceptionHandler" />
     <MESSAGE value="项目架构调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目架构调整" />
+    <MESSAGE value="数据库调整，文档修改" />
+    <MESSAGE value="认证中心代码调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="认证中心代码调整" />
   </component>
 </project>
